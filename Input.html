@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Formulário</title>
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <div class="col">
+            <div class="row_1 row">
+                <p id="h1">Formulário de Registro do Aluno</p>
+            </div>
+
+            <div class="row_3 row">
+                <h3>Dados Pessoais</h3>
+                <form>
+                    <p>Nome:</p><input class="_100" type="text"><br><br>
+
+                    <p class="_20 left">Data de Nascimento:</p>
+                    <p class="_20 left">(dd/mm/aaaa)</p><br>
+                    
+                    <input class="_20 left" type="number">
+                    <input class="_20 left" type="number">
+                    <input class="_20 left" type="number">
+                    <br><br><br>
+
+                    <p class="_60 left">Nº de Matrícula</p>
+                    <p class="_40 left">Sexo:</p>
+
+                    <div class="_40 left"><input type="number"></div>
+
+                    <div class="_20 right"><input type="checkbox">Masculino</div>
+                    <div class="_20 right"><input type="checkbox">Feminino</div>
+
+                </form>
+            </div>
+
+            <div class="row_1 row">
+                <h3>Dados do Curso</h3>
+
+                <div class="_20 left text">Curso:</div>
+                
+                <div class="_20 left"><select class="select">
+                    <option value="info">Info</option>
+                    <option value="patola">Patola</option>
+                    <option value="eletras">Eletras</option>
+                    <option value="patola">Química</option>
+                    <option value="automacao">Automacao</option>
+                </select></div>
+
+                <div class="_60 left">
+                    <div class="_20 right"><input type="checkbox">3º Ano</div>
+                    <div class="_20 right"><input type="checkbox">2º Ano</div>
+                    <div class="_20 right"><input type="checkbox">1º Ano</div>
+                    <div class="_20 right text">Série:</div>
+                </div>
+            </div>
+
+            <input class="right button" type="button" value="Enviar">
+            <input class="right button" type="button" value="Limpar">
+
+        </div>
+    </body>
+</html>
